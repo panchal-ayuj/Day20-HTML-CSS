@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar1 {
+            background-color: aqua;
+            padding: 1%;
+        }
+
+        #navbar2 {
+            background-color: bisque;
+            padding: 1%;
+            margin: 0%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .heading {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: chocolate;
+            margin: 0%;
+            padding: 2%;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            background-color: aquamarine;
+        }
+
+        .data {
+            width: 60%;
+            margin-top: 5%;
+            margin-left: 2%;
+        }
+
+        .card {
+            width: 35%;
+            box-sizing: border-box;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 class="heading">Website title</h1>
+    </center>
+    <header>
+        <center>
+            <nav id="navbar1">
+                <a href="#">Home</a>&nbsp;&nbsp;&nbsp;
+                <a href="about.html">About</a>&nbsp;&nbsp;&nbsp;
+                <a href="contact.html">Contact</a>
+            </nav>
+        </center>
+    </header>
+
+
+    <div class="flex-container">
+        <div class="data">
+            <h2>Newest post</h2>
+            <h3>First post</h3>
+            <h4>Contact goes here</h4>
+        </div>
+
+        <div class="card">
+            <center>
+                <h2>Card Title</h2>
+            </center>
+            <center>
+                <img src="Capture.PNG" alt="Card Image">
+            </center>
+            <center>
+                <p>Description for the card goes here. This is a simple example.</p>
+            </center>
+        </div>
+    </div>
+
+
+    <footer>
+        <center>
+            <nav id="navbar2">
+                <a href="#">Instagram</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">Facebook</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">Reddit</a>
+            </nav>
+        </center>
+    </footer>
+
+</body>
+
+</html>
